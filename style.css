@@ -10,11 +10,13 @@ button{
   height: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  cursor:pointer;
 }
 
 .container{
   background-color: rgb(79, 255, 255);
   border-radius: 30px;
+  width:500px;
 }
 .container1{
   display: grid;
