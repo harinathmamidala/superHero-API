@@ -18,7 +18,7 @@ const getSuperHero = (id,name) => {
 const showHeroInfo=(character)=>{
   //Object.keys(OBJECT_NAME) function that returns arrays that cointains all keys not values ,so we can finally apply map to that array
   const name = `<h2>${character.name.toUpperCase()}</h2>`
-  const img=`<img src='${character.image.url}' height=300 width=300/>`
+  const img=`<img src='${character.image.url}'/>`
   const array=Object.keys(character.powerstats)
   console.log(array)
  
