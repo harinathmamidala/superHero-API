@@ -1,3 +1,8 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .buttons{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,6 +22,7 @@ button{
   background-color: rgb(79, 255, 255);
   border-radius: 30px;
   padding-bottom: 60px;
+  max-width: 500px;
 }
 .container1{
   display: grid;
@@ -50,5 +56,8 @@ img{
   margin-bottom: 25px;
   text-decoration: underline;
   margin-top: 20px;
+}
+.searchInput:focus{
+  outline:none;
 }
 
